@@ -1,0 +1,47 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 12%);
+    padding: 10px 20px;
+}
+.avatar{
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+}avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius:50%
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center h1, h3, p{
+    margin: 0;
+}
+.center h1{
+    font-size: 1.3rem;
+    margin: 1rem 0 0.6rem 0;
+}
+.center h3{
+    font-size: 1.0rem;
+    color: hsl(75, 94%, 57%);
+}
+button{
+    padding: 5px;
+    background-color:hsl(0, 0%, 20%);
+}
+bbutton:hover{
+    bbackground-color: hsl(75, 94%, 57%);
+}
